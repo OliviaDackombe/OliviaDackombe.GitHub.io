@@ -1,3 +1,18 @@
-h1 {
+#h1 {
     font-weight: lighter;
+    font-family: myfirstfont;
+    src: Inter-Bold.ttf;
+    font-size: 30px;
+}
+
+#button {
+    width: 165px;
+    height: 62p;
+    cursor: pointer color: #fff;
+    font-size: 18px;
+    border-radius: 50%;
+    Box-shadow:rgba(0, 0, 0, 75) 0px 5px 15px 
+    font-family: myFirstFont;
+    src: url.Inter.ttf;
+    }
 }
