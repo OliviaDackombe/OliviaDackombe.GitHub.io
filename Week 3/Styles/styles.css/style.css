@@ -41,7 +41,8 @@
         background-color: lightblue;
         padding: 1em;
       } 
-      #h1
+      <header>
        {
         font-family: "Inter", sans-serif;
+        </header>
     }
