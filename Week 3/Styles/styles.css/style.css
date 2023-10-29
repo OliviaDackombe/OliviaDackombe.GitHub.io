@@ -1,4 +1,4 @@
-<header> {
+<body> {
 <link rel="stylesheet" href="https://fonts.google.com/specimen/Inter#standard-styles;">
 <style>
   font-family: "Inter", sans-serif;
@@ -41,3 +41,7 @@
         background-color: lightblue;
         padding: 1em;
       } 
+      #h1
+       {
+        font-family: "Inter", sans-serif;
+    }
