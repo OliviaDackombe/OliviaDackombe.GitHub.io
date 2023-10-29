@@ -1,10 +1,14 @@
 <body> {
-<link rel="stylesheet" href="https://fonts.google.com/specimen/Inter#standard-styles;">
-<style>
-  font-family: "Inter", sans-serif;
-   src: https://fonts.google.com/specimen/Inter#standard-styles;
-    font-weight: medium;
+    <link font-family: href="Week 3/Styles/Inter" > <style> font-family: "Inter", sans-serif;
+    src: https: //fonts.google.com/specimen/Inter#standard-styles;
+        font-weight: medium;
     font-size: 30px;
+}
+#<header> 
+{
+    font-family: "Inter", sans-serif;
+    </header>
+}
 }
 #button {
     width: 165px;
@@ -12,37 +16,31 @@
     cursor: pointer color: #fff;
     font-size: 18px;
     border-radius: 50%;
-    Box-shadow:rgba(0, 0, 0, 75) 0px 5px 15px 
+    Box-shadow: rgba(0, 0, 0, 75) 0px 5px 15px
+}
+@keyframes marquee {
+    0% {
+        margin-left: 100%;
+        transform: translateX(0%);
     }
-    @keyframes marquee {
-        0% {
-          margin-left: 100%;
-          transform: translateX(0%);
-        }
-        100% {
-          margin-left: 0;
-          transform: translateX(-100%);
-        }
-      }
-      .section {
-        overflow: hidden;
-      
-        .marquee {
-          animation: marquee 7s linear infinite;
-          display: inline-block;
-          white-space: nowrap;
-      
-          &:hover {
+    100% {
+        margin-left: 0;
+        transform: translateX(-100%);
+    }
+}
+.section {
+    overflow: hidden;
+
+    .marquee {
+        animation: marquee 7s linear infinite;
+        display: inline-block;
+        white-space: nowrap;
+
+        &:hover {
             animation-play-state: paused;
-          }
         }
-      }
-      .text-styling {
-        background-color: lightblue;
-        padding: 1em;
-      } 
-      <header>
-       {
-        font-family: "Inter", sans-serif;
-        </header>
     }
+}
+.text-styling {
+    background-color: lightblue;
+    padding: 1em;
